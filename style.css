@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 80px;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.logo{
+    width: 250px;
+}
+.arrow{
+    height: 35%;
+}
+.primary-color{
+    background-color: #B68C5A;
+}
