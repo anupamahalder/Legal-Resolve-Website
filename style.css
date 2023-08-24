@@ -2,24 +2,34 @@
     padding: 0;
     margin: 0;
 }
+/* Header section design  */
 .header{
-    height: 80px;
-    /* background-color: grey; */
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #707070;
 }
-.flex{
+.flex-div{
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-.logo{
-    width: 250px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
 }
 .arrow{
-    height: 35%;
+    margin-top: 7px;
 }
-.primary-color{
+.btn-primary{
     background-color: #B68C5A;
+    padding: 15px 20px;
+    /* margin-top: 10px; */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+}
+.home{
+    padding-right: 15px;
 }
